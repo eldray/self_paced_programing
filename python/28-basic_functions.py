@@ -1,10 +1,11 @@
-#function = a block of code which is executed only when it is called
+ # function = a block of code which is executed only when it is called
 
-#function/block of code
+# function/block of code
 def hello():
     print("hello ")
     print("Have a nice day!")
-#invoking or calling the function
+
+# invoking or calling the function
 hello()
 hello()
 
@@ -18,7 +19,7 @@ hello("Emmanuel")
 
 #adding more arguments
 def hello(first_name,last_name, age):
-    print("hello " + first_name + " "  + last_name)
+    print("Hello " + first_name + " "  + last_name)
     print("You are now " + str(age)+ " years old")
 
 hello("Dennis", "Churchill", 26)
