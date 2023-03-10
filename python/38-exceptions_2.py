@@ -9,5 +9,7 @@ try:
     print(result)
 except ZeroDivisionError:
     print("You can't divide by zero: Idiot!")
+
+#case scenario where input is 5/joe to print an error
 except ValueError:
     print("Enter only nummbers")
